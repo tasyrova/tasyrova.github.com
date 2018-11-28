@@ -1,0 +1,196 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	h1, h2 {
+		font-size: 30px;
+	}
+	.headline {
+		margin-bottom: 470px;	
+	}
+	.info-head {
+		width: 80%;
+	}
+	#description {
+		padding-bottom: 300px;
+	}
+	.nomination-grid img {
+		width: 180px;
+		padding: 0;
+	}
+	.nav-link.active img {
+		width: 200px;
+		padding: 10px;
+		top: 0;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.headline {
+		margin-top: 350px;
+		margin-bottom: 470px;		
+	}
+	#description .description-img3 {
+		width: 350px;
+	}
+	#description .description-img2 {
+		width: 520px;
+		bottom: -80px;
+	}
+	.nomination-grid img {
+		width: 120px;
+		padding: 0;
+	}
+	.nav-link.active img {
+		width: 160px;
+		padding: 0;
+		top: 0;
+	}
+	.nomination-grid a p {
+		display: none;
+	}
+	#jury .jury-img2 {
+		max-height: 300px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	body {
+		font-size: 95%;
+	}
+	h1, h2 {
+		font-size: 26px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	.logo-container {
+		width: 300px;
+		height: 300px;
+		top: -50px;
+		left: -50px;
+	}
+	.logo-container img {
+		width: 150px;
+	}
+	.headline {
+		margin-top: 300px;
+		margin-bottom: 490px;		
+	}
+	.info-head {
+		width: 100%;
+	}
+	.header-img1 {
+		max-width: 200px;
+		left: 150px;
+		top: -20px;
+	}
+	#jury {padding-bottom: 300px;}
+	#jury .caption-border {
+		width: 400px;
+		height: 400px;	
+	}
+	.nomination-grid img {
+		width: 190px;
+		padding: 20px;
+	}
+	.nomination-head {
+		padding-bottom: 20px;
+	}
+	.nav-link {
+		font-size: 16px;
+	}
+	.nav-link.active {
+		font-size: 17px;
+	}
+	.nav-link.active img {
+		width: 230px;
+		padding: 40px;
+		top: 0;
+	}
+	#nomination ul, #nomination li, #nomination .nav-link {
+		margin: 0;
+		padding: 0;
+	}
+	.registration-item .item-step {
+		font-size: 16px;
+	}
+
+	table {
+		border: 0;
+	}
+
+	table thead {
+		display: none;
+	}
+
+	table tr {
+		margin-bottom: 10px;
+		display: block;
+		border-bottom: 2px solid #ddd;
+	}
+
+	table td {
+		display: block;
+		text-align: right;
+		font-size: 13px;
+		border-bottom: 1px dotted #ccc;
+	}
+
+	table td:last-child {
+		border-bottom: 0;
+	}
+
+	table td:before {
+		content: attr(data-label);
+		float: left;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+@media (min-width: 576px) {
+	.video .modal-dialog, .location .modal-dialog {
+		max-width: 80%;
+		height: auto;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
