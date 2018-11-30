@@ -1,5 +1,16 @@
 @font-face {
-  font-family: "Broadway";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/Broadway/11430.ttf") format("truetype"); }
+    font-family: Retro;
+    src: url("../fonts/Retro/retro.otf");
+}
+@font-face {
+    font-family: RobotoR;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: RobotoM;
+    src: url("../fonts/Roboto/Roboto-Medium.ttf");
+}
+@font-face {
+    font-family: RobotoB;
+    src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
